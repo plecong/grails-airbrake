@@ -8,7 +8,7 @@ log4j = {
       console name:'stdout', layout:pattern(conversionPattern: '%c %m%n')
 
       appender name: 'airbrake', new grails.plugins.airbrake.AirbrakeAppender(
-          api_key: 'f3b1245cac082fefc59bb467d395e175',
+          api_key: 'API_KEY',
           env: 'dev'
       )
     }
